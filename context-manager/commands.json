@@ -1,0 +1,22 @@
+[
+  {
+    "command": "diskpart",
+    "description": "Disk partition management utility.",
+    "category": "CMD"
+  },
+  {
+    "command": "netsh",
+    "description": "Configure network interfaces, firewall, and more.",
+    "category": "CMD"
+  },
+  {
+    "command": "Get-Process",
+    "description": "Lists active processes in PowerShell.",
+    "category": "PowerShell"
+  },
+  {
+    "command": "Get-EventLog",
+    "description": "Reads event logs on a local or remote machine.",
+    "category": "PowerShell"
+  }
+]

@@ -1,0 +1,57 @@
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f0f4f6;
+  color: #222;
+}
+
+header {
+  background: #007C91;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+input, select, button {
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: none;
+  margin: 0.25rem;
+}
+
+#command-list {
+  padding: 1rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.command-card {
+  background: white;
+  padding: 1rem;
+  border-left: 4px solid #007C91;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.command-card .category {
+  font-weight: bold;
+  color: #007C91;
+}
+
+.command-card button {
+  margin-top: 0.5rem;
+  background: #009FB7;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
